@@ -1,1 +1,8 @@
-
+apache-airflow-providers-google
+scikit-learn
+pandas
+sqlalchemy
+pymysql
+s3fs
+scipy
+pickle
