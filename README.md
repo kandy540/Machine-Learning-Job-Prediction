@@ -87,7 +87,7 @@ This architecture encompasses the strengths of AWS services, Python, and Apache 
 ![Infographic](./images/infographic.JPG)
 
 ## Code
-https://github.com/callahan-44/ML-Job-Prediction
+https://github.com/kandy540/Machine-Learning-Job-Prediction
 
 ## Investigation
 We found that the data provided was well-suited to cleaning and exploratory data analysis, althogh somewhat limited in scope (less than 700 rows). Once cleaned, resulting in about 620 rows, computationally efficient Naive Bayesean (NB) models were successful in predicting the relative seniority of a job, with about 85% accuracy. These models were less effective at predicting the sector, about 60% accurate, likely owing to the limited size of the dataset compared to the number of sectors (23 sectors compared to only 620 training/evaluation rows). We compared classification performance of several models, including K-Nearest Neighbors (which performed slightly worse than NB) and multi-layer perceptron (MLP) neural networks. While MLP classifiers slightly outperformed NB models in accuracy (~90% compared to 85%) and other key performance metrics, they did so using over a thousand times more CPU time. 
